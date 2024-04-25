@@ -8,8 +8,8 @@ from sentence_transformers import SentenceTransformer
 
 
 # Load your ChromaDB collection
-client = chromadb.PersistentClient(path=r"C:\Users\user\Downloads")
-collection = client.get_collection(name="search_engine_project_3")
+client = chromadb.PersistentClient(path=r"C:\Users\user\movie_subtitle\chromadb1")
+collection = client.get_collection(name="search_engine_project")
 
 # Load SentenceTransformer model
 model = SentenceTransformer("all-MiniLM-L6-v2")
